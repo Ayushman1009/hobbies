@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+/* body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: burlywood;
+} */
+#navbar{
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    top: 0px;
+    background: #E0E6ED;
+    font-family: 'Alegreya Sans', sans-serif;
+    
+    /* border: 2px solid red; */
+}
+.logo{
+    font-size: 32px;
+    margin-left: 80px;
+    padding: 12px 28px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.social{
+    font-size: 32px;
+    margin-left:55rem;
+    
+
+}
+.social a i{
+    margin: 0rem 1rem;
+    color: black;
+    /* padding: 12px 28px; */
+
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #D3DCE6;
+    margin-top: 45px;
+}
+.card{
+    position: relative;
+    margin: 0px 20px ;
+    margin-top: 115px;
+    margin-bottom: 10px;
+    width: 215px;
+    height: 125px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px black;
+    transition: 0.3s;
+    padding: 30px 50px;
+    background: #C0CCDA;
+    cursor: pointer;
+    /* overflow: hidden; */
+}
+.card:hover{
+    height: 200px;
+} 
+.img-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-80px);
+    z-index: 100;
+    
+}
+
+.img-box img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px black;
+}
+.content{
+    padding: 60px 20px;
+    text-align: center;
+    transform: translateY(-140px);
+    transition: 0.3s;
+    opacity: 0;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.card:hover .content{
+    opacity:1 ;
+    transform: translateY(-160px);
+}
+
+.name{
+    margin: 10px 0px;
+
+}
+
+.center{
+    background-color: #bfbebe;
+    color: black;
+    text-align: center;
+    margin: 0px 3px;
+    padding: 38px 0px;
+    font-size: 25px;
+}
+
+.card1:hover{
+    color: rgb(169, 10, 10);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(ironman-bg.jpg);
+    background-position: center;
+    background-size: cover;
+} 
+.card2:hover{
+    color: rgb(32, 122, 32);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(hulkbg.jpg);
+    background-position: center;
+    background-size: cover;
+} 
+.card3:hover{
+    color:rgb(210, 159, 159);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(cabg.jpg);
+    background-position: center;
+    background-size: cover;
+} 
+.card4:hover{
+    color:rgb(154, 35, 35);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(thor.jpg);
+    background-position: center;
+    background-size: cover;
+} 
+.card5:hover{
+    color:rgb(255, 255, 255);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(black-widowbg.jpg);
+    background-position: center;
+    background-size: cover;
+} 
+.card6:hover{
+    color:rgb(255, 255, 255);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(hawkeyebg.jpg);
+    background-position: center;
+    background-size: cover;
+} 
+.card7:hover{
+    color:rgb(255, 255, 255);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(spidermanbg.webp);
+    background-position: center;
+    background-size: cover;
+} 
+.card8:hover{
+    color:rgb(255, 255, 255);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(blackpantherbg.jpeg);
+    background-position: center;
+    background-size: cover;
+} 
+.card9:hover{
+    color:rgb(255, 255, 255);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(wandabg.webp);
+    background-position: center;
+    background-size: cover;
+} 
+.card10:hover{
+    color:rgb(255, 255, 255);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(drstrangebg.jpg);
+    background-position: center;
+    background-size: cover;
+} 
+.card11:hover{
+    color:rgb(255, 255, 255);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(antmanbg.jpg);
+    background-position: center;
+    background-size: cover;
+} 
+.card12:hover{
+    color:rgb(255, 255, 255);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(deadpoolbg.jpg);
+    background-position: center;
+    background-size: cover;
+} 
