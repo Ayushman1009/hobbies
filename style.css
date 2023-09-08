@@ -106,25 +106,25 @@
 }
 
 .card1:hover{
-    color: rgb(169, 10, 10);
+    color: rgb(255, 255, 255);
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(ironman-bg.jpg);
     background-position: center;
     background-size: cover;
 } 
 .card2:hover{
-    color: rgb(32, 122, 32);
+    color: rgb(255, 255, 255);
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(hulkbg.jpg);
     background-position: center;
     background-size: cover;
 } 
 .card3:hover{
-    color:rgb(210, 159, 159);
+    color:rgb(255, 255, 255);
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(cabg.jpg);
     background-position: center;
     background-size: cover;
 } 
 .card4:hover{
-    color:rgb(154, 35, 35);
+    color:rgb(255, 255, 255);
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(thor.jpg);
     background-position: center;
     background-size: cover;
